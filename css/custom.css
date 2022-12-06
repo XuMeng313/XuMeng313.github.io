@@ -1,0 +1,288 @@
+
+
+/* ������ */
+::-webkit-scrollbar {
+    width: 8px;
+    height: 8px;
+  }
+   
+  ::-webkit-scrollbar-track {
+    background-color: rgba(73, 177, 245, 0.2);
+    border-radius: 2em;
+  }
+   
+  ::-webkit-scrollbar-thumb {
+    background-color: #49b1f5;
+    background-image: -webkit-linear-gradient(
+      45deg,
+      rgba(255, 255, 255, 0.4) 25%,
+      transparent 25%,
+      transparent 50%,
+      rgba(255, 255, 255, 0.4) 50%,
+      rgba(255, 255, 255, 0.4) 75%,
+      transparent 75%,
+      transparent
+    );
+    border-radius: 2em;
+  }
+   
+  ::-webkit-scrollbar-corner {
+    background-color: transparent;
+  }
+   
+  ::-moz-selection {
+    color: #fff;
+    background-color: #49b1f5;
+  }
+
+
+  /* ҳ��footer */
+/* ����ɫ�������� */
+@-webkit-keyframes Gradient {
+    0% {
+        background-position: 0 50%;
+    }
+ 
+    50% {
+        background-position: 100% 50%;
+    }
+ 
+    100% {
+        background-position: 0 50%;
+    }
+}
+ 
+@-moz-keyframes Gradient {
+    0% {
+        background-position: 0 50%;
+    }
+ 
+    50% {
+        background-position: 100% 50%;
+    }
+ 
+    100% {
+        background-position: 0 50%;
+    }
+}
+ 
+@keyframes Gradient {
+    0% {
+        background-position: 0 50%;
+    }
+ 
+    50% {
+        background-position: 100% 50%;
+    }
+ 
+    100% {
+        background-position: 0 50%;
+    }
+}
+#footer {
+    background: linear-gradient(-45deg, #ee7752, #ce3e75, #23a6d5, #23d5ab);
+    background-size: 400% 400%;
+    -webkit-animation: Gradient 10s ease infinite;
+    -moz-animation: Gradient 10s ease infinite;
+    animation: Gradient 10s ease infinite;
+    -o-user-select: none;
+    -ms-user-select: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+#footer:before {
+    background-color: rgba(0, 0, 0, 0);
+}
+/* ����ҳ���� */
+.layout_post>#post {
+    /* ���´�����ɫ͸����Ϊ0.3 */
+    background: rgba(255,255,255,.3);
+}
+
+/* ���б�����������ҳ��Ƭ������ҳ��ҳ��ҳ�ȣ� */
+#aside_content .card-widget, #recent-posts>.recent-post-item, .layout_page>div:first-child:not(.recent-posts), .layout_post>#page, .layout_post>#post, .read-mode .layout_post>#post{
+    /* ���´�����ɫ͸����Ϊ0.3 */
+    background: rgba(255,255,255,.7);
+}
+
+
+
+
+
+/* �����������ϢͼƬ��Ƭ���� */
+#aside-content>.card-widget.card-info {
+  background-image: url(https://s2.loli.net/2022/12/06/pQrWnEvd8DgIMmL.png);
+  background-repeat: no-repeat;
+  background-attachment: inherit;
+  background-size: 100%;
+}
+/* �����������Ϣ��Ƭ��̬����ɫ */
+/* #aside-content>.card-widget.card-info {
+  background-image: url(https://source.fomal.cc/img/ӣ��.png);
+  background-repeat: no-repeat;
+  background-attachment: inherit;
+  background-size: 100%;
+}
+#aside-content > .card-widget.card-info {
+    background: linear-gradient(
+      -45deg, 
+      #ee0979,
+      #4158D0,
+      #C850C0,
+      #FFCC70,
+      #007991
+    );
+    box-shadow: 0 0 5px rgb(66, 68, 68);
+    position: relative;
+    background-size: 400% 400%;
+    -webkit-animation: Gradient 10s ease infinite;
+    -moz-animation: Gradient 10s ease infinite;
+    animation: Gradient 10s ease infinite !important;
+  }
+  @-webkit-keyframes Gradient {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+  @-moz-keyframes Gradient {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+  @keyframes Gradient {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+  body { /*��Ƭ���ֺ�ǩ������*/
+    /* position: relative;
+    min-height: 100%;
+    background: var(--global-bg);
+    color: #f1ecec;
+    font-size: var(--global-font-size);
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Helvetica Neue', Lato, Roboto, 'PingFang SC', 'Microsoft YaHei', sans-serif;
+    line-height: 2;
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+}  */
+  
+  /* ��ҹģʽ���� */
+  [data-theme="dark"] #aside-content > .card-widget.card-info {
+    background: #191919ee;
+  }
+  
+  /* ������ϢFollow me��ť */
+  #aside-content > .card-widget.card-info > #card-info-btn {
+    background-color: #3eb8be;
+    border-radius: 8px;
+  }
+
+
+  /* ��ҳ���¿�Ƭ */
+#recent-posts > .recent-post-item {
+    background: rgba(255, 255, 255, 0.9);
+  }
+  
+  /* ��ҳ������Ƭ */
+  #aside-content .card-widget {
+    background: rgba(255, 255, 255, 0.9);
+  }
+  
+  /* ����ҳ�����ı��� */
+  div#post {
+    background: rgba(255, 255, 255, 0.9);
+  }
+  
+  /* ��ҳҳ�� */
+  div#page {
+    background: rgba(255, 255, 255, 0.9);
+  }
+  
+  /* �鵵ҳ�� */
+  div#archive {
+    background: rgba(255, 255, 255, 0.9);
+  }
+  
+  /* ��ǩҳ�� */
+  div#tag {
+    background: rgba(255, 255, 255, 0.9);
+  }
+  
+  /* ����ҳ�� */
+  div#category {
+    background: rgba(255, 255, 255, 0.9);
+  }
+  
+  /*ҹ��ģʽα�����ֲ�͸��*/
+  [data-theme="dark"] #recent-posts > .recent-post-item {
+    background: #121212;
+  }
+  
+  [data-theme="dark"] .card-widget {
+    background: #121212 !important;
+  }
+  
+  [data-theme="dark"] div#post {
+    background: #121212 !important;
+  }
+  
+  [data-theme="dark"] div#tag {
+    background: #121212 !important;
+  }
+  
+  [data-theme="dark"] div#archive {
+    background: #121212 !important;
+  }
+  
+  [data-theme="dark"] div#page {
+    background: #121212 !important;
+  }
+  
+  [data-theme="dark"] div#category {
+    background: #121212 !important;
+  }
+  
+  [data-theme="dark"] div#category {
+    background: transparent !important;
+  }
+  /* ҳ��͸�� */
+  #footer {
+    background: transparent !important;
+  }
+  
+  /* ͷͼ͸�� */
+  #page-header {
+    background: transparent !important;
+  }
+  
+  #rightside > div > button {
+    border-radius: 5px;
+  }
+  
+
+  /* ��������� */
+#article-container figure.highlight {
+    border-radius: 10px;
+  }
+
+

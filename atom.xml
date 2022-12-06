@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>白日梦想录</title>
+  
+  
+  <link href="http://example.com/atom.xml" rel="self"/>
+  
+  <link href="http://example.com/"/>
+  <updated>2022-11-27T10:21:15.994Z</updated>
+  <id>http://example.com/</id>
+  
+  <author>
+    <name>续梦</name>
+    
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>测试</title>
+    <link href="http://example.com/2022/11/27/test/"/>
+    <id>http://example.com/2022/11/27/test/</id>
+    <published>2022-11-27T09:10:10.000Z</published>
+    <updated>2022-11-27T10:21:15.994Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="测试"><a href="#测试" class="headerlink" title="测试"></a>测试</h1><p><img src="/2022/11/27/test/1.jpg" alt></p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h1 id=&quot;测试&quot;&gt;&lt;a href=&quot;#测试&quot; class=&quot;headerlink&quot; title=&quot;测试&quot;&gt;&lt;/a&gt;测试&lt;/h1&gt;&lt;p&gt;&lt;img src=&quot;/2022/11/27/test/1.jpg&quot; alt&gt;&lt;/p&gt;
+</summary>
+      
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>测试</title>
+    <link href="http://example.com/2022/11/27/%E6%B5%8B%E8%AF%95/"/>
+    <id>http://example.com/2022/11/27/%E6%B5%8B%E8%AF%95/</id>
+    <published>2022-11-27T09:00:55.000Z</published>
+    <updated>2022-12-02T02:43:59.760Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="测试这是一个测试"><a href="#测试这是一个测试" class="headerlink" title="测试这是一个测试"></a>测试这是一个测试</h1><p><img src="/2022/11/27/%E6%B5%8B%E8%AF%95/MyBlog\source\_posts\测试\1.jpg" alt></p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hello world</span><br></pre></td></tr></table></figure>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h1 id=&quot;测试这是一个测试&quot;&gt;&lt;a href=&quot;#测试这是一个测试&quot; class=&quot;headerlink&quot; title=&quot;测试这是一个测试&quot;&gt;&lt;/a&gt;测试这是一个测试&lt;/h1&gt;&lt;p&gt;&lt;img src=&quot;/2022/11/27/%E6%B5%8B%E8%AF%95/MyBlo</summary>
+      
+    
+    
+    
+    
+    <category term="-测试输入" scheme="http://example.com/tags/%E6%B5%8B%E8%AF%95%E8%BE%93%E5%85%A5/"/>
+    
+  </entry>
+  
+</feed>
