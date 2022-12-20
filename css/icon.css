@@ -15,17 +15,20 @@
 
 .icon-qq:before {
   content: "\e600";
-  color:#A8D8EA
+  color:#A8D8EA ;
+  font-size: 1.3em;
 }
 
 .icon-weixin:before {
   content: "\e637";
-  color: #AA96DA
+  color: #AA96DA;
+  font-size: 1.5em;
 }
 
 .icon-github:before {
   content: "\e63a";
-  color: #FCBAD3
+  color: #FCBAD3;
+  font-size: 1.5em;
 }
 
 .icon-bilibili:before {
